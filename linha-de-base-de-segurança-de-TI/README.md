@@ -64,25 +64,6 @@ Este projeto segue:
 - Revisão contínua
 - Responsabilidade técnica
 
-> “Examinai tudo. Retende o bem.”  
-> (1 Tessalonicenses 5:21)
-
----
-
-## 🙏 Cosmovisão Cristã
-
-Este repositório é desenvolvido com base em princípios bíblicos de:
-
-- Integridade
-- Mordomia
-- Excelência
-- Responsabilidade
-
-> “Além disso, requer-se dos despenseiros que cada um seja encontrado fiel.”  
-> (1 Coríntios 4:2)
-
-A tecnologia aqui é tratada como instrumento de serviço, não de engano.
-
 ---
 
 ## 👤 Autor
