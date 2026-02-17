@@ -19,11 +19,38 @@ Não há publicação de informações sem verificação.
 
 ## 📂 Estrutura do Repositório
 ```yaml
-linha-de-base-de-seguranca-de-ti/
-├── ativos/
-├── documentos/
-├── exemplos/
+│linha-de-base-de-seguranca-de-ti/
+│
+├── assets/
+│   ├── classificacao-ativos.md
+│   ├── inventario-modelo.md
+│   └── README.md
+│
+├── documents/
+│   ├── politica-backup.md
+│   ├── politica-seguranca.md
+│   └── README.md
+│
+├── examples/
+│   ├── checklist-operacional.md
+│   ├── exemplos-firewall.md
+│   ├── exemplos-nomenclatura.md
+│   ├── mikrotik/
+|   |   ├── routeros-v6
+|   |   |   ├── firewall
+|   |   |   └── README.md
+|   |   |   └── firewall-ipv4.rsc
+|   |   |   └── firewall-ipv6.rsc
+|   |   └── README.md    
+|   |   ├── routeros-v7
+|   |   |   ├── firewall
+|   |   |   └── README.md
+|   |   |   └── firewall-ipv4.rsc
+|   |   |   └── firewall-ipv6.rsc
+│   └── README.md
+│
 └── README.md
+
 ```
 
 ### 📁 ativos/
