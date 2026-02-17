@@ -47,9 +47,3 @@ Arquivos típicos:
 - MikroTik RouterOS v7 Documentation
 - MikroTik Security Guide
 - RFC 8200 / 8446
-
----
-
-## Princípio
-
-> “Faça tudo com decência e ordem.” (1Co 14:40)
