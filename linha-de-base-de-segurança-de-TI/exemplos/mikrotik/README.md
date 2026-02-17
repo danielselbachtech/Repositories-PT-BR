@@ -43,5 +43,3 @@ mikrotik/
 - Defesa em profundidade
 - Clareza operacional
 - Revisão contínua
-
-> “Examinai tudo. Retende o bem.” (1Ts 5:21)
