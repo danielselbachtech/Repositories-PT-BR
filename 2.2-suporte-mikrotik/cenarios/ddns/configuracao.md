@@ -2,35 +2,26 @@
 
 ### 1. Salvar o Script
 
-Abra o Winbox e acesse System > Scripts.
-
-Clique em (+) e defina o Name como Update_DynDNS.
-
-Garanta que as opções read, write, policy e test estejam marcadas.
-
-Cole o código e salve.
+- Abra o Winbox e acesse **System > Scripts**.
+- Clique em (+) e defina o **Name** como Update_DynDNS.
+- Garanta que as opções **read, write, policy e test** estejam marcadas.
+- Cole o código e salve.
 
 ### 2. Criar a Automação (Scheduler)
-Para garantir que a verificação ocorra sozinha de forma contínua:
 
-Acesse System > Scheduler e clique em (+).
-
-Name: Auto_DynDNS.
-
-Interval: 00:05:00 (Verificação a cada 5 minutos).
-
-On Event: Update_DynDNS (Tem que ser o nome exato do script).
-
-Salve.
+- Para garantir que a verificação ocorra sozinha de forma contínua:
+- Acesse System > Scheduler e clique em (+).
+- **Name:** Auto_DynDNS.
+- **Interval:** 00:05:00 (Verificação a cada 5 minutos).
+- **On Event:** Update_DynDNS (Tem que ser o nome exato do script).
+- Salve.
 
 ## Validação e Logs
 Abra o painel Log no MikroTik. O script entrega mensagens claras para facilitar o diagnóstico:
 
-Sucesso total! ➜ O DynDNS recebeu o novo IP. Acesso remoto liberado.
-
-IP inalterado. ➜ O IP segue o mesmo. O script valida a rede, mas não gera tráfego desnecessário.
-
-O servidor DynDNS nao respondeu ➜ O IP foi encontrado, mas o tráfego HTTP do roteador está sendo bloqueado (Verifique suas regras de Mangle, Filter ou o modem da operadora).
+- **Sucesso total!** ➜ O DynDNS recebeu o novo IP. Acesso remoto liberado.
+- **IP inalterado.** ➜ O IP segue o mesmo. O script valida a rede, mas não gera tráfego desnecessário.
+- **O servidor DynDNS nao respondeu** ➜ O IP foi encontrado, mas o tráfego HTTP do roteador está sendo bloqueado (Verifique suas regras de Mangle, Filter ou o modem da operadora).
 
 # Script
 Copie o script abaixo. Altere **apenas** as variáveis de usuário, senha e hostname nas três primeiras linhas.
