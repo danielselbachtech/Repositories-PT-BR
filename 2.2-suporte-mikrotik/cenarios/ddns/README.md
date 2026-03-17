@@ -1,12 +1,12 @@
-# DynDNS para RouterOS v7 (Bypass de IP Privado)
+# Script: DynDNS para RouterOS v7 (IP Público Dinâmico / Ex: VIVO PPPoE)
 
 **O problema real nas PMEs:**
-Você precisa de acesso remoto (Winbox via acesso local, VPN), mas o link da operadora entrega um modem roteado ou a conexão está atrás de um NAT (IP 192.168.x.x na sua porta WAN). 
+Você precisa de acesso remoto confiável (Winbox, VPN, Servidores), mas a operadora entrega um **IP Público Dinâmico** (cenário clássico de links empresariais básicos ou residenciais via PPPoE, como a VIVO). 
 
-O resultado prático? O atualizador nativo do DynDNS envia o IP interno da sua rede. O acesso externo cai, e a operação trava. Contratar um link com IP Público fixo só para resolver isso tem um custo para pequenas e médias empresas.
+O resultado prático? A operadora muda o seu IP periodicamente. Quando isso acontece, o endereço desatualiza, a conexão externa cai e a operação trava até que alguém descubra o novo IP. Contratar um link dedicado com **IP Fixo** só para resolver isso gera um custo mensal pesado e quase sempre inviável para pequenas e médias empresas.
 
-**A solução**
-Este script usa a nuvem da própria MikroTik para descobrir qual é o seu **IP Público real** de saída. Em seguida, ele força a atualização no DynDNS via HTTP, mascarando a origem (`User-Agent: curl`) para evitar que o servidor do DynDNS bloqueie a requisição do roteador.
+**A solução:**
+Automação com custo zero. Este script usa a nuvem da própria MikroTik para monitorar e descobrir o seu **IP Público atualizado**. Assim que a operadora muda o IP, o script detecta a alteração e força a atualização imediata no DynDNS via HTTP. O uso da tag (`User-Agent: curl`) mascara a origem e evita que o servidor do DynDNS bloqueie a requisição do roteador. 
 
 ---
 
