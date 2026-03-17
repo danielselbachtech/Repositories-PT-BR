@@ -5,7 +5,7 @@ Você precisa de acesso remoto (Winbox via acesso local, VPN), mas o link da ope
 
 O resultado prático? O atualizador nativo do DynDNS envia o IP interno da sua rede. O acesso externo cai, e a operação trava. Contratar um link com IP Público fixo só para resolver isso tem um custo para pequenas e médias empresas.
 
-**A solução (Custo Zero):**
+**A solução**
 Este script usa a nuvem da própria MikroTik para descobrir qual é o seu **IP Público real** de saída. Em seguida, ele força a atualização no DynDNS via HTTP, mascarando a origem (`User-Agent: curl`) para evitar que o servidor do DynDNS bloqueie a requisição do roteador.
 
 ---
