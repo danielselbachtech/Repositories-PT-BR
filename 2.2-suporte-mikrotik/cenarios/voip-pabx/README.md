@@ -5,13 +5,3 @@ Em PMEs, ligações que ficam mudas ou caem após 30 segundos geram atrito no at
 
 **A Solução:**
 Criar um caminho limpo para a sinalização, fixar a saída de voz por um único link e desativar as interceptações nativas do MikroTik.
-
----
-
-## 🛠️ Passo a Passo (Terminal)
-
-### 1. Desativar o SIP ALG (O Vilão do Áudio Mudo)
-O MikroTik possui um "ajudante" nativo para SIP que, na prática, corrompe os cabeçalhos em conexões NAT com servidores em nuvem. **Desative-o.**
-```routeros
-/ip firewall service-port disable sip
-```
