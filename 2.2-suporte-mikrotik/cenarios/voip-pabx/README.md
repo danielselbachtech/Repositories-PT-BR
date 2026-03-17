@@ -5,3 +5,5 @@ Em PMEs, ligações que ficam mudas ou caem após 30 segundos geram atrito no at
 
 **A Solução:**
 Criar um caminho limpo para a sinalização, fixar a saída de voz por um único link e desativar as interceptações nativas do MikroTik.
+
+[Ir para a Configuração do PABX/VoIP](./cenarios/voip-pabx/configuracao.md)
