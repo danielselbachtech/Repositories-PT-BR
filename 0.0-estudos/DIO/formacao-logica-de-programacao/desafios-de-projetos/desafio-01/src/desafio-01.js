@@ -1,35 +1,27 @@
-const NomeDoHeroi = 'Esdras_O_Grande';
-let XpDoHeroi = -1;
-let NivelDoHeroi;
+let nome = "Esdras";
+let xpLista = [500, 1500, 3000, 6000, 7500, 8500, 9500, 11000];
 
-switch (true) {
-    case  XpDoHeroi >= 0 && XpDoHeroi <= 1000:
-        NivelDoHeroi = 'Ferro';
-        break;
-    case XpDoHeroi >= 1001 && XpDoHeroi <= 2000:
-        NivelDoHeroi = 'Bronze';
-        break;
-    case XpDoHeroi >= 2001 && XpDoHeroi <= 5000:
-        NivelDoHeroi = 'Prata';
-        break;
-    case XpDoHeroi >= 5001 && XpDoHeroi <= 7000:
-        NivelDoHeroi = 'Ouro';
-        break;
-    case XpDoHeroi >= 7001 && XpDoHeroi <= 8000:
-        NivelDoHeroi = 'Platina';
-        break;
-    case XpDoHeroi >= 8001 && XpDoHeroi <= 9000:
-        NivelDoHeroi = 'Ascendente';
-        break;
-    case XpDoHeroi >= 9001 && XpDoHeroi <= 10000:
-        NivelDoHeroi = 'Imortal';
-        break;
-    case XpDoHeroi > 10001:
-        NivelDoHeroi = 'Radiante';
-        break;
-    default:
-        NivelDoHeroi = 'Desconhecido';
+for (let i = 0; i < xpLista.length; i++) {
+    let xp = xpLista[i];
+    let nivel;
+
+    if (xp <= 1000) {
+        nivel = "Ferro";
+    } else if (xp <= 2000) {
+        nivel = "Bronze";
+    } else if (xp <= 5000) {
+        nivel = "Prata";
+    } else if (xp <= 7000) {
+        nivel = "Ouro";
+    } else if (xp <= 8000) {
+        nivel = "Platina";
+    } else if (xp <= 9000) {
+        nivel = "Ascendente";
+    } else if (xp <= 10000) {
+        nivel = "Imortal";
+    } else {
+        nivel = "Radiante";
+    }
+
+    console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
 }
-
-// Saída
-console.log(`O Herói de nome ${NomeDoHeroi} está no nível de ${NivelDoHeroi}!`);
