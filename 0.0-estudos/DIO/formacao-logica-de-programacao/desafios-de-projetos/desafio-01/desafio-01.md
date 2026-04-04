@@ -1,4 +1,4 @@
-# Desafio 01 - Classificador de nível de Herói
+# 1️⃣ Desafio Classificador de nível de Herói
 
 **O que deve ser utilizado**
 
@@ -23,4 +23,4 @@ Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de 
 ## Saída
 
 Ai final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**.
+"O Herói de nome **{nome}** está no nível de **{nivel}**"
