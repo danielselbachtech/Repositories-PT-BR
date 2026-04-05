@@ -4,4 +4,4 @@ Repositório com os estudos e projetos desenvolvidos nas formações da platafor
 
 ## Formações
 
-- [Formação Lógica de Programação](./formacao-logica-de-programacao/)
+- [Formação Lógica de Programação](./DIO/formacao-logica-de-programacao/)
