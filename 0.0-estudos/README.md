@@ -4,4 +4,4 @@ Repositório destinado aos estudos e formações realizados ao longo da minha jo
 
 ## Plataformas
 
-- [Formação Lógica de Programação](./formacao-logica-de-programacao/)
+- [DIO](./DIO/)
