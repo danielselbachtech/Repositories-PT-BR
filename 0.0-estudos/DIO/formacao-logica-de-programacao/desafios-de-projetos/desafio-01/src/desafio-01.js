@@ -1,4 +1,4 @@
-const NomeDoHeroi = "JackChan";
+const NomeDoHeroi = "JackieChan";
 let xpDoHeroi = 2000;
 let nivel;
 
