@@ -1,7 +1,7 @@
-# DIO
+# 0.0 Estudos
 
-Repositório com os estudos e projetos desenvolvidos nas formações da plataforma [DIO](https://www.dio.me/).
+Repositório destinado aos estudos e formações realizados ao longo da minha jornada de aprendizado em programação.
 
-## Formações
+## Plataformas
 
-- [Formação Lógica de Programação](./formacao-logica-de-programacao/)
+- [DIO](./DIO/)
