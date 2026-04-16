@@ -1,7 +1,9 @@
+// Criando as variáveis do herói
 const NomeDoHeroi = "JackieChan";
 let xpDoHeroi = 2000;
 let nivel;
 
+// Estruturas de decisões para classificar o nível com base no XP
 switch (true) {
     case xpDoHeroi >= 0 && xpDoHeroi <= 1000:
         nivel = 'Ferro';
@@ -28,4 +30,5 @@ switch (true) {
         nivel = 'Desconhecido';
     }
 
+// Saída exigida pelo desafio
 console.log(`O Herói de nome ${NomeDoHeroi} está no nivel de ${nivel}!`);
