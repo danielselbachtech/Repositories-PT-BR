@@ -26,7 +26,9 @@ Desafio de lógica de programação da DIO onde criei um sistema que classifica 
 
 ### Desafio 02 — Calculadora de Partidas Rankeadas
 
-Em breve.
+Desafio de lógica de programação da DIO onde criei um sistema que calcula o saldo de partidas rankeadas (vitórias menos derrotas) e classifica o nível do herói do Ferro ao Imortal. Foi meu primeiro contato prático com funções e laços de repetição em JavaScript, onde aprendi a isolar a lógica do cálculo e automatizar testes de vários resultados de uma única vez.
+
+[Ver código](./desafios-de-projetos/desafio-02/src/desafio2.js)
 
 ---
 
