@@ -26,5 +26,3 @@ Desafio de lógica de programação da DIO onde criei um sistema de classes que 
 [Ver código](./desafio-03/src/desafio-03.js)
 
 ---
-
-## Desafio 03 — Em breve
