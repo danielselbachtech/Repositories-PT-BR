@@ -29,14 +29,17 @@ Desafio de lógica de programação da DIO onde criei um sistema que classifica 
 
 Desafio de lógica de programação da DIO onde criei um sistema que calcula o saldo de partidas rankeadas (vitórias menos derrotas) e classifica o nível do herói do Ferro ao Imortal. Foi meu primeiro contato prático com funções e laços de repetição em JavaScript, onde aprendi a isolar a lógica do cálculo e automatizar testes de vários resultados de uma única vez.
 
-[Ver código](./desafios-de-projetos/desafio-02/src/desafio2.js)
+[Ver código](./desafios-de-projetos/desafio-02/src/desafio-02.js)
 
 
 ---
 
-### Desafio 03 — Escrevendo as Classes de Um Jogo
+### Desafio 03 — Escrevendo as classes de um Jogo
 
-Em breve.
+Desafio de lógica de programação da DIO onde criei um sistema de classes que representa heróis de uma aventura com propriedades de nome, idade e tipo. Foi meu primeiro contato prático com Programação Orientada a Objetos em JavaScript, onde aprendi a utilizar o método de ataque dinâmico para cada classe e a manipular as propriedades internas do objeto através do ponteiro `this`.
+
+
+[Ver código](./desafios-de-projetos/desafio-03/src/desafio-03.js)
 
 ## Desafios de Código
 
