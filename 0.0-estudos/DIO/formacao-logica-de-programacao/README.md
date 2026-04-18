@@ -40,15 +40,3 @@ Desafio de lógica de programação da DIO onde criei um sistema de classes que 
 
 
 [Ver código](./desafios-de-projetos/desafio-03/src/desafio-03.js)
-
-## Desafios de Código
-
-| Desafio | Status |
-|---|---|
-| Jornada do Herói | Em breve |
-| Pontos de Experiência | Em breve |
-| Capturando Pokémons Iniciais | Em breve |
-| Coleta de Tesouros no Dungeon | Em breve |
-| Geração de Biomas em um Mundo de Blocos | Em breve |
-| Combinando Nomes de Pokémons | Em breve |
-| Gerenciamento de Itens Mágicos | Em breve |
