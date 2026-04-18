@@ -20,6 +20,10 @@ Desafio de lógica de programação da DIO onde criei um sistema que calcula o s
 
 
 ---
+### Desafio 03 — Escrevendo as classes de um Jogo
+
+Desafio de lógica de programação da DIO onde criei um sistema de classes que representa heróis de uma aventura com propriedades de nome, idade e tipo. Foi meu primeiro contato prático com Programação Orientada a Objetos em JavaScript, onde aprendi a utilizar o método de ataque dinâmico para cada classe e a manipular as propriedades internas do objeto através do ponteiro `this`.
+[Ver código](./desafio-03/src/desafio-03.js)
 
 ---
 
